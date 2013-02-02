@@ -1,6 +1,10 @@
 (ns ass2stl.core
     (:use [clojure.java.io]))
 
+(defn foo
+    [x]
+    x)
+
 (defn read-lines
     [filename]
     (let [rdr (reader filename)]

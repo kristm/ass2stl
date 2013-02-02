@@ -4,6 +4,8 @@
 /checkouts
 pom.xml
 pom.xml.asc
+*.swp
+*.swo
 *.jar
 *.class
 .lein-deps-sum
