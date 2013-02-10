@@ -31,3 +31,9 @@
 (deftest test-convert-msec
     (testing "convert ass timecode to correct stl time value (0 - 25)"
         (is (= 10 (convert-msec 40)))))
+
+(deftest test-convert-ass-timecode
+    (testing "convert end portion of time code to its stl equivalent"
+        (is (= "0:11:26:22" (convert-ass-timecode "0:11:26.88"))))
+    (testing "last portion of time code should be in 2 digit format"
+        (is (= "0:11:26:03" (convert-ass-timecode "0:11:26.12")))))
