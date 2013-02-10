@@ -1,10 +1,10 @@
 # ass2stl
 
-A Clojure script to convert Aegisub's .ass files to Apple's DVD Studio Pro STL files for subtitling DVDs.
+A Clojure script to convert Aegisub's .ass files to Apple's DVD Studio Pro STL format for subtitling DVDs.
 
 ## Usage
 
-lein run -m ass2str.core <filename.ass>
+lein run <filename.ass>
 
 ## Dependencies
 
