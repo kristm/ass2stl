@@ -6,10 +6,6 @@
     []
     (str (System/getProperty "user.dir") "/test/sample.txt"))
 
-(deftest test-read-lines
-    (testing "read line returns a lazy sequence of lines"
-            (is (= clojure.lang.LazySeq (class (read-lines (sample-file)))))))
-
 (def sample-line
     "Dialogue: 0,0:11:26.40,0:11:27.64,Default,,0,0,0,,Don't you hang the phone")
 
@@ -18,15 +14,20 @@
 
 (deftest test-parse-line
     (testing "matches 3 patterns + whole match"
-        (is (= 4 (count (first (parse-line sample-line))))))
+        (is (= 4 (count (parse-line sample-line)))))
     (testing "extract start time"
-        (is (= "0:11:26.40" (first (next (first (parse-line sample-line)))))))
+        (is (= "0:11:26.40" (first (next (parse-line sample-line))))))
+        (is (= "0:11:26.40" (nth (parse-line sample-line) 1)))
     (testing "extract end time"
-        (is (= "0:11:27.64" (first (next (next (first (parse-line sample-line))))))))
+        (is (= "0:11:27.64" (first (next (next (parse-line sample-line)))))))
     (testing "extract dialogue"
-        (is (= "Don't you hang the phone" (last (next (first (parse-line sample-line)))))))
+        (is (= "Don't you hang the phone" (last (next (parse-line sample-line))))))
 
     (testing "invalid line"
         (is (= nil (parse-line invalid-line))))
 
 )
+
+(deftest test-convert-msec
+    (testing "convert ass timecode to correct stl time value (0 - 25)"
+        (is (= 10 (convert-msec 40)))))
