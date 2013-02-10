@@ -5,7 +5,7 @@ A Clojure script to convert Aegisub's .ass files to Apple's DVD Studio Pro STL f
 
 ## Usage
 
-lein run <filename.ass>
+lein run _filename.ass_
 
 ## Dependencies
 
