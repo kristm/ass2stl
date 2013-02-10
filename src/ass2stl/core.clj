@@ -31,8 +31,7 @@
 (defn write-header
     [output]
     (binding [*out* (java.io.FileWriter. output)]
-        (doseq [line (print-header)]
-            (println line))))
+        (doseq [line (print-header)] (println line))))
 
 (defn parse-line
     [line]
