@@ -61,5 +61,6 @@
                                     (apply str [(convert-ass-timecode (nth matched-line 1)) " , "
                                                 (convert-ass-timecode (nth matched-line 2)) " , "
                                                 (nth matched-line 3)])))))))
+            (println (apply str ["STL file written: " output]))
             (catch Exception e "System Screamed Error!"))))
 
