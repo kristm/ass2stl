@@ -47,20 +47,20 @@
     (let [endt (re-find #"\d*$" ass-time)]
         (apply str [ (re-find #"[^\..*]*" ass-time) ":" (format "%02d" (convert-msec (Integer. endt)))])))
 
+(defn convert-line
+    [line]
+    (apply str [(convert-ass-timecode (nth line 1)) " , " (convert-ass-timecode (nth line 2)) " , " (nth line 3)]))
+
 (defn -main
     [& args]
-    (let [output (clojure.string/replace (first args) #"(.*)\.[a-zA-Z]*$" "$1.stl")]
-        (try
-            (write-header output)
-            (with-open [rdr (reader (first args))]
-                (let [fseq (line-seq rdr)]
-                    (doseq [line fseq]
-                        (binding [*out* (java.io.FileWriter. output, true)]
-                            (when-let [matched-line (parse-line line)] 
-                                (println 
-                                    (apply str [(convert-ass-timecode (nth matched-line 1)) " , "
-                                                (convert-ass-timecode (nth matched-line 2)) " , "
-                                                (nth matched-line 3)])))))))
-            (println (apply str ["STL file written: " output]))
-            (catch Exception e "System Screamed Error!"))))
-
+    (def output (clojure.string/replace (first args) #"(.*)\.[a-zA-Z]*$" "$1.stl"))
+    (try
+        (write-header output)
+        (with-open [rdr (reader (first args))]
+            (let [fseq (line-seq rdr)]
+                (doseq [line fseq]
+                    (binding [*out* (java.io.FileWriter. output, true)]
+                        (when-let [matched-line (parse-line line)] 
+                            (println (convert-line matched-line)))))))
+        (println (apply str ["STL file written: " output]))
+        (catch Exception e "System Screamed Error!")))

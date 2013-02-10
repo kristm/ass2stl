@@ -37,3 +37,7 @@
         (is (= "0:11:26:22" (convert-ass-timecode "0:11:26.88"))))
     (testing "last portion of time code should be in 2 digit format"
         (is (= "0:11:26:03" (convert-ass-timecode "0:11:26.12")))))
+
+(deftest test-convert-line
+    (testing "convert ass line to stl format"
+        (is (= "0:11:09:08 , 0:11:10:15 , There you said it!" (convert-line ["Dialogue: 0,0:11:09.33,0:11:10.62,Default,,0,0,0,,There you said it!" "0:11:09.33" "0:11:10.62" "There you said it!"])))))
