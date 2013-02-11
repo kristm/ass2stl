@@ -21,7 +21,10 @@
     :TapeOffset "false"
     })
 
-(def re #"((?:\d\d?:){2}\d{2}\.\d{2}),((?:\d\d?:){2}\d{2}\.\d{2}),Default[\d\,]+(?:\{[a-z\d\\]*(?:\([0-9\,\-]*\))?\})?([^\{\}]*)$")
+(def stl-format {
+    :i1 "^I"})
+
+(def re #"((?:\d\d?:){2}\d{2}\.\d{2}),((?:\d\d?:){2}\d{2}\.\d{2}),Default[\d\,]+(?:\{\\([a-z\d]*(?:\([0-9\,\-]*\))?)?\})?([^\{\}]*)$")
 
 (defn print-header
     []
@@ -31,8 +34,7 @@
 (defn write-header
     [output]
     (binding [*out* (java.io.FileWriter. output)]
-        (doseq [line (print-header)] (println line))
-        (println "\n")))
+        (doseq [line (print-header)] (println line))))
 
 (defn parse-line
     [line]
@@ -47,9 +49,13 @@
     (let [endt (re-find #"\d*$" ass-time)]
         (apply str [ "0" (re-find #"[^\..*]*" ass-time) ":" (format "%02d" (convert-msec (Integer. endt)))])))
 
+(defn convert-dialogue
+    [line]
+    (if-let [formatter (nth line 3)] (apply str [(get stl-format (keyword formatter)) (last line) (get stl-format (keyword formatter))]) (last line)))
+
 (defn convert-line
     [line]
-    (apply str [(convert-ass-timecode (nth line 1)) " , " (convert-ass-timecode (nth line 2)) " , " (nth line 3)]))
+    (apply str [(convert-ass-timecode (nth line 1)) " , " (convert-ass-timecode (nth line 2)) " , " (convert-dialogue line)]))
 
 (defn -main
     [& args]
@@ -61,7 +67,6 @@
                 (doseq [line fseq]
                     (binding [*out* (java.io.FileWriter. output, true)]
                         (when-let [matched-line (parse-line line)] 
-                            (println matched-line)
                             (println (convert-line matched-line)))))))
         (println (apply str ["STL file written: " output]))
         (catch Exception e "System Screamed Error!")))
