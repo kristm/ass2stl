@@ -46,8 +46,9 @@
 
 (defn convert-ass-timecode
     [ass-time]
-    (let [endt (re-find #"\d*$" ass-time)]
-        (apply str [ "0" (re-find #"[^\..*]*" ass-time) ":" (format "%02d" (convert-msec (Integer. endt)))])))
+    (when-let [timematch (first (re-seq #"^(\d+)([\d\:]+)\.(\d+)$" ass-time))]
+        (let [h (nth timematch 1) m (nth timematch 2) e (nth timematch 3)]
+            (apply str [ (format "%02d" (Integer. h)) m ":" (format "%02d" (convert-msec (Integer. e)))]))))
 
 (defn convert-dialogue
     [line]
