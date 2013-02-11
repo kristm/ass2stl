@@ -51,7 +51,10 @@
 
 (defn convert-dialogue
     [line]
-    (if-let [formatter (nth line 3)] (apply str [(get stl-format (keyword formatter)) (last line) (get stl-format (keyword formatter))]) (last line)))
+    (defn get-stl-format [key] (get stl-format (keyword key)))
+    (if-let [formatter (nth line 3)] 
+        (apply str [(get-stl-format formatter) (last line) (get-stl-format formatter)]) 
+        (last line)))
 
 (defn convert-line
     [line]
