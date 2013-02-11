@@ -21,7 +21,7 @@
     :TapeOffset "false"
     })
 
-(def re #"((?:\d\d?:){2}\d{2}\.\d{2}),((?:\d\d?:){2}\d{2}\.\d{2}),Default[\d,]*([^\{\}]*)$")
+(def re #"((?:\d\d?:){2}\d{2}\.\d{2}),((?:\d\d?:){2}\d{2}\.\d{2}),Default[\d\,]+(?:\{[a-z\d\\]*(?:\([0-9\,\-]*\))?\})?([^\{\}]*)$")
 
 (defn print-header
     []
@@ -31,7 +31,8 @@
 (defn write-header
     [output]
     (binding [*out* (java.io.FileWriter. output)]
-        (doseq [line (print-header)] (println line))))
+        (doseq [line (print-header)] (println line))
+        (println "\n")))
 
 (defn parse-line
     [line]
@@ -44,7 +45,7 @@
 (defn convert-ass-timecode
     [ass-time]
     (let [endt (re-find #"\d*$" ass-time)]
-        (apply str [ (re-find #"[^\..*]*" ass-time) ":" (format "%02d" (convert-msec (Integer. endt)))])))
+        (apply str [ "0" (re-find #"[^\..*]*" ass-time) ":" (format "%02d" (convert-msec (Integer. endt)))])))
 
 (defn convert-line
     [line]
@@ -60,6 +61,7 @@
                 (doseq [line fseq]
                     (binding [*out* (java.io.FileWriter. output, true)]
                         (when-let [matched-line (parse-line line)] 
+                            (println matched-line)
                             (println (convert-line matched-line)))))))
         (println (apply str ["STL file written: " output]))
         (catch Exception e "System Screamed Error!")))
