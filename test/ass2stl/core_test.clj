@@ -52,7 +52,11 @@
 
 (deftest test-convert-to-fcpxml-time
     (testing "convert aegisub time format to fcpxml"
-        (is (= 1642080 (convert-to-fcpxml-time "0:01:08.42")))))
+        (is (= "1642080/24000s" (convert-to-fcpxml-time "0:01:08.42")))))
+
+(deftest test-convert-fcpxml
+    (testing "convert aegisub format to fcpx xml"
+        (is (= "<title lane='1' offset='1643642/24000s' ref='r11' name='TextUp Bold: It is if its true' duration='xxx/120000s' start='86486400/24000' role='subtitle'><text>It is if its true</text></title>" (convert-fcpxml (parse-line formatted-line))))))
 
 (deftest test-convert-line
     (testing "convert ass line to stl format"

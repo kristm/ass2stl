@@ -45,7 +45,7 @@
     (when-let [timematch (first (re-seq #"^(\d+)\:(\d+)\:(\d+)\.(\d+)$" ass-time))]
         (let [hour (nth timematch 1) minute (nth timematch 2) sec (nth timematch 3) endf (nth timematch 4)]
             ;(println (apply str [hour "|" minute "|" sec "|" endf])))))
-            (Math/round (* (Float. (apply str [ (+ (* (Integer. minute) 60) (Integer. sec)) "." endf ])) 24000)))))
+            (apply str [(Math/round (* (Float. (apply str [ (+ (* (Integer. minute) 60) (Integer. sec)) "." endf ])) 24000)) "/24000s"]))))
 
 (defn convert-msec
     [ass_sec]
@@ -67,6 +67,15 @@
 (defn convert-line
     [line]
     (apply str [(convert-ass-timecode (nth line 1)) " , " (convert-ass-timecode (nth line 2)) " , " (convert-dialogue line)]))
+
+(defn strip-format
+    [line]
+    (last line))
+
+(defn convert-fcpxml
+    [line]
+    (apply str ["<title lane='1' offset='" (convert-to-fcpxml-time (nth line 1)) "' ref='r11' name='TextUp Bold: " (strip-format line) "' duration='xxx/120000s' start='86486400/24000s' role='subtitle'><text>" (strip-format line) "</text></title>"])
+)
 
 (defn -main
     [& args]
