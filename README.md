@@ -13,6 +13,10 @@ or
 
 leinegen 2
 
+## Test
+    $ lein test
+
+
 ## License
 
 Copyright © 2013 Krist Menina
