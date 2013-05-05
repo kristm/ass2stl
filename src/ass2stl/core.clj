@@ -74,7 +74,8 @@
 
 (defn convert-fcpxml
     [line]
-    (apply str ["<title lane='1' offset='" (convert-to-fcpxml-time (nth line 1)) "' ref='r11' name='TextUp Bold: " (strip-format line) "' duration='xxx/120000s' start='86486400/24000s' role='subtitle'><text>" (strip-format line) "</text></title>"])
+    (let [start-time (nth line 1) end-time (nth line 2)]
+        (apply str ["<title lane='1' offset='" (convert-to-fcpxml-time start-time) "' ref='r11' name='TextUp Bold: " (strip-format line) "' duration='xxx/120000s' start='86486400/24000s' role='subtitle'><text>" (strip-format line) "</text></title>"]))
 )
 
 (defn -main
