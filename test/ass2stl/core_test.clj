@@ -50,6 +50,10 @@
     (testing "last portion of time code should be in 2 digit format"
         (is (= "00:11:26:03" (convert-ass-timecode "0:11:26.12")))))
 
+(deftest test-convert-to-fcpxml-time
+    (testing "convert aegisub time format to fcpxml"
+        (is (= 1642080 (convert-to-fcpxml-time "0:01:08.42")))))
+
 (deftest test-convert-line
     (testing "convert ass line to stl format"
         (is (= "00:11:09:08 , 00:11:10:15 , There you said it!" (convert-line ["Dialogue: 0,0:11:09.33,0:11:10.62,Default,,0,0,0,,There you said it!" "0:11:09.33" "0:11:10.62" "There you said it!"]))))

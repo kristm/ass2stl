@@ -40,6 +40,13 @@
     [line]
     (if-let [line (re-seq re line)] (first line) nil)) ; return line if match else return nil
 
+(defn convert-to-fcpxml-time
+    [ass-time]
+    (when-let [timematch (first (re-seq #"^(\d+)\:(\d+)\:(\d+)\.(\d+)$" ass-time))]
+        (let [hour (nth timematch 1) minute (nth timematch 2) sec (nth timematch 3) endf (nth timematch 4)]
+            ;(println (apply str [hour "|" minute "|" sec "|" endf])))))
+            (Math/round (* (Float. (apply str [ (+ (* (Integer. minute) 60) (Integer. sec)) "." endf ])) 24000)))))
+
 (defn convert-msec
     [ass_sec]
     (int (/ ass_sec 3.92)))
