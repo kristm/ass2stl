@@ -84,7 +84,7 @@
 
 (defn -main
     [& args]
-    (def output (clojure.string/replace (first args) #"(.*)\.[a-zA-Z]*$" "$1.stl"))
+    (def output (clojure.string/replace (first args) #"(.*)\.[a-zA-Z]*$" "$1.fcpxml"))
     (try
         (write-header output)
         (with-open [rdr (reader (first args))]
@@ -92,6 +92,6 @@
                 (doseq [line fseq]
                     (binding [*out* (java.io.FileWriter. output, true)]
                         (when-let [matched-line (parse-line line)] 
-                            (println (convert-line matched-line)))))))
-        (println (apply str ["STL file written: " output]))
+                            (println (convert-fcpxml matched-line)))))))
+        (println (apply str ["FCPXML file written: " output]))
         (catch Exception e "System Screamed Error!")))
