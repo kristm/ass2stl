@@ -40,7 +40,7 @@
     [line]
     (if-let [line (re-seq re line)] (first line) nil)) ; return line if match else return nil
 
-(defn convert-to-minutes
+(defn convert-to-seconds
     [ass-time]
     (when-let [timematch (first (re-seq #"^(\d+)\:(\d+)\:(\d+)\.(\d+)$" ass-time))]
         (let [hour (nth timematch 1) minute (nth timematch 2) sec (nth timematch 3) endf (nth timematch 4)]
@@ -49,7 +49,12 @@
 
 (defn convert-to-fcpxml-time
     [ass-time]
-    (apply str [(convert-to-minutes ass-time) "/24000s"]))
+    (apply str [(convert-to-seconds ass-time) "/24000s"]))
+
+(defn fcpxml-duration
+    [start-time end-time] 
+    (apply str [(Math/round (* (/ (- end-time start-time) 24000.0) 120000)) "/120000s"])
+)
 
 (defn convert-msec
     [ass_sec]
@@ -78,8 +83,8 @@
 
 (defn convert-fcpxml
     [line]
-    (let [start-time (convert-to-minutes (nth line 1)) end-time (convert-to-minutes (nth line 2))]
-        (apply str ["<title lane='1' offset='" (convert-to-fcpxml-time (nth line 1)) "' ref='r11' name='TextUp Bold: " (strip-format line) "' duration='" (- end-time start-time) "/120000s' start='86486400/24000s' role='subtitle'><text>" (strip-format line) "</text></title>"]))
+    (let [start-time (convert-to-seconds (nth line 1)) end-time (convert-to-seconds (nth line 2))]
+        (str "<title lane=\"1\" offset=\"" (convert-to-fcpxml-time (nth line 1)) "\" ref=\"r11\" name=\"TextUp Bold: " (strip-format line) "\" duration=\"" (fcpxml-duration start-time end-time) "\" start=\"86486400/24000s\" role=\"subtitle\">\n\t<text>" (strip-format line) "</text>\n</title>"))
 )
 
 (defn -main
