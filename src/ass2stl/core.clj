@@ -70,7 +70,7 @@
     [line]
     (defn get-stl-format [key] (get stl-format (keyword key)))
     (if-let [formatter (nth line 3)] 
-        (apply str [(get-stl-format formatter) (last line) (get-stl-format formatter)]) 
+        (str (get-stl-format formatter) (last line) (get-stl-format formatter)) 
         (last line)))
 
 (defn convert-line
@@ -78,8 +78,9 @@
     (apply str [(convert-ass-timecode (nth line 1)) " , " (convert-ass-timecode (nth line 2)) " , " (convert-dialogue line)]))
 
 (defn strip-format
-    [line]
-    (last line))
+    ([line] (clojure.string/replace (last line) #"\"" "\""))
+)
+
 
 (defn convert-fcpxml
     [line]

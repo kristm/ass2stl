@@ -15,6 +15,10 @@
 (def formatted-line
     "Dialogue: 0,0:00:28.00,0:00:36.89,Default,,0,0,0,,{\\i1}It isn't real if it isn't true")
 
+;(def line-with-quote
+;    "Dialogue: 0,0:06:07.82,0:06:09.40,Default,,0,0,0,,As if everything is "OK""
+;)
+
 (def invalid-line
     "Invalid line")
 
