@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.3">
+    <project name="test" uid="36A1ADC7-B9D6-41E5-BDE6-7A6FAB17FB92" eventID="4241DFA7-3363-42FE-B918-B4446027E5EC" location="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/master%2020min/">
+        <resources>
+            <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+            <media id="r2" name="opening credits" uid="pjGrOp/hQPqDd83hZS9NhA">
+                <sequence duration="1008007/24000s" format="r1" tcStart="0s" audioLayout="stereo">
+                    <spine>
+                        <clip offset="0s" name="hellowala_id" duration="391391/24000s" format="r3" tcFormat="NDF">
+                            <conform-rate srcFrameRate="25"/>
+                            <video offset="0s" ref="r4" duration="39100/2500s"/>
+                        </clip>
+                        <clip offset="391391/24000s" name="2013-10-30 11:45:44" duration="154154/24000s" start="5323664346/24000s" tcFormat="DF">
+                            <timeMap>
+                                <timept time="5322649332/24000s" value="55471791375000/1000000000s" interp="smooth2"/>
+                                <timept time="5325291972/24000s" value="55444263875000/1000000000s" interp="smooth2"/>
+                            </timeMap>
+                            <info-asc-cdl slope="1.19171 1.1937 1.2063" offset="-0.0651042 -0.0666553 -0.0741993" power="1 1 1"/>
+                            <adjust-color>
+                                <cb-correction>
+                                    <cb-values global="0.138242 0.504548 0.497843 0.465174" shadows="0.5 0.5 0.488748 0.5" midtones="0.597 0.5 0.594527 0.5" highlights="0.6439 0.506083 0.446343 0.599502"/>
+                                </cb-correction>
+                            </adjust-color>
+                            <adjust-volume amount="-96dB"/>
+                            <video offset="1330662333/24000s" ref="r5" duration="660660/24000s" start="1330662333/24000s">
+                                <adjust-stabilization type="automatic">
+                                    <param name="Smoothing" key="107" value="0.99"/>
+                                    <param name="Tripod Mode" key="108" value="1"/>
+                                </adjust-stabilization>
+                                <audio lane="-1" offset="2661324666/48000s" ref="r5" duration="1321320/48000s" start="2661324666/48000s" role="dialogue" srcCh="1, 2"/>
+                            </video>
+                            <title lane="1" offset="5323682364/24000s" ref="r6" name="Basic Title: Inihahandog ng
+hello wala studios" duration="440440/120000s" start="86486400/24000s">
+                                <param name="Position" key="9999/999166631/999166633/1/100/101" value="1.00006 115.542"/>
+                                <text>
+                                    <text-style ref="ts1">Inihahandog ng
+</text-style>
+                                    <text-style ref="ts2">hello wala studios</text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font="Rocca" fontSize="63" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts2">
+                                    <text-style font="Rocca" fontSize="120" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title lane="1" offset="5323776458/24000s" ref="r6" name="Basic Title: pang-2 maikling pelikula ni
+juan patlang" duration="440440/120000s" start="86486400/24000s">
+                                <param name="Position" key="9999/999166631/999166633/1/100/101" value="1.00006 115.542"/>
+                                <text>
+                                    <text-style ref="ts3">pang-2 maikling pelikula ni
+</text-style>
+                                    <text-style ref="ts4">juan patlang</text-style>
+                                </text>
+                                <text-style-def id="ts3">
+                                    <text-style font="Rocca" fontSize="63" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts4">
+                                    <text-style font="Rocca" fontSize="120" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <metadata>
+                                <md key="com.apple.proapps.studio.reel" value="16g 3"/>
+                            </metadata>
+                        </clip>
+                        <clip offset="545545/24000s" name="2013-10-30 11:45:44" duration="154154/24000s" start="5324122804/24000s" tcFormat="DF">
+                            <timeMap>
+                                <timept time="5322649332/24000s" value="55444263875000/1000000000s" interp="smooth2"/>
+                                <timept time="5325291972/24000s" value="55471791375000/1000000000s" interp="smooth2"/>
+                            </timeMap>
+                            <info-asc-cdl slope="1.19171 1.1937 1.2063" offset="-0.0651042 -0.0666553 -0.0741993" power="1 1 1"/>
+                            <adjust-color>
+                                <cb-correction>
+                                    <cb-values global="0.138242 0.504548 0.497843 0.465174" shadows="0.5 0.5 0.488748 0.5" midtones="0.597 0.5 0.594527 0.5" highlights="0.6439 0.506083 0.446343 0.599502"/>
+                                </cb-correction>
+                            </adjust-color>
+                            <adjust-volume amount="-96dB"/>
+                            <video offset="1330662333/24000s" ref="r5" duration="660660/24000s" start="1330662333/24000s">
+                                <adjust-stabilization type="automatic">
+                                    <param name="Smoothing" key="107" value="0.99"/>
+                                    <param name="Tripod Mode" key="108" value="1"/>
+                                </adjust-stabilization>
+                                <audio lane="-1" offset="2661324666/48000s" ref="r5" duration="1321320/48000s" start="2661324666/48000s" role="dialogue" srcCh="1, 2"/>
+                            </video>
+                            <title lane="1" offset="5324175857/24000s" ref="r6" name="Basic Title:  hindi pa ako tulog
+jose alberto" duration="470470/120000s" start="86486400/24000s">
+                                <param name="Position" key="9999/999166631/999166633/1/100/101" value="1.00006 115.542"/>
+                                <text>
+                                    <text-style ref="ts5"> hindi pa ako tulog</text-style>
+                                    <text-style ref="ts6">
+</text-style>
+                                    <text-style ref="ts7">jose alberto</text-style>
+                                </text>
+                                <text-style-def id="ts5">
+                                    <text-style font="Rocca" fontSize="140" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts6">
+                                    <text-style font="Rocca" fontSize="63" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts7">
+                                    <text-style font="Rocca" fontSize="196" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <metadata>
+                                <md key="com.apple.proapps.studio.reel" value="16g 3"/>
+                            </metadata>
+                        </clip>
+                        <clip offset="699699/24000s" name="2013-10-30 11:45:44" duration="154154/24000s" start="5323664346/24000s" tcFormat="DF">
+                            <timeMap>
+                                <timept time="5322649332/24000s" value="55471791375000/1000000000s" interp="smooth2"/>
+                                <timept time="5325291972/24000s" value="55444263875000/1000000000s" interp="smooth2"/>
+                            </timeMap>
+                            <info-asc-cdl slope="1.19171 1.1937 1.2063" offset="-0.0651042 -0.0666553 -0.0741993" power="1 1 1"/>
+                            <adjust-color>
+                                <cb-correction>
+                                    <cb-values global="0.138242 0.504548 0.497843 0.465174" shadows="0.5 0.5 0.488748 0.5" midtones="0.597 0.5 0.594527 0.5" highlights="0.6439 0.506083 0.446343 0.599502"/>
+                                </cb-correction>
+                            </adjust-color>
+                            <adjust-volume amount="-96dB"/>
+                            <video offset="1330662333/24000s" ref="r5" duration="660660/24000s" start="1330662333/24000s">
+                                <adjust-stabilization type="automatic">
+                                    <param name="Smoothing" key="107" value="0.99"/>
+                                    <param name="Tripod Mode" key="108" value="1"/>
+                                </adjust-stabilization>
+                                <audio lane="-1" offset="2661324666/48000s" ref="r5" duration="1321320/48000s" start="2661324666/48000s" role="dialogue" srcCh="1, 2"/>
+                            </video>
+                            <title lane="1" offset="5323665347/24000s" ref="r6" name="Basic Title: kasama sina
+nico antonio
+    don gordon bell
+        chanel latorre
+            divine aucina" duration="550550/120000s" start="86486400/24000s">
+                                <param name="Position" key="9999/999166631/999166633/1/100/101" value="-564.18 212.884"/>
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/1002965245/401" value="0 (Left)"/>
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/1002966483/401" value="0 (Left)"/>
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/1002966487/401" value="0 (Left)"/>
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/1002966488/401" value="0 (Left)"/>
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="0 (Left)"/>
+                                <text>
+                                    <text-style ref="ts8">kasama sina
+</text-style>
+                                    <text-style ref="ts9">nico antonio
+    don gordon bell
+        chanel latorre
+            divine aucina</text-style>
+                                </text>
+                                <text-style-def id="ts8">
+                                    <text-style font="Rocca" fontSize="63" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1"/>
+                                </text-style-def>
+                                <text-style-def id="ts9">
+                                    <text-style font="Rocca" fontSize="120" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1"/>
+                                </text-style-def>
+                            </title>
+                            <title lane="1" offset="5323783465/24000s" ref="r6" name="Basic Title: at ipinapakilala si
+celeste cortez" duration="440440/120000s" start="86486400/24000s">
+                                <param name="Position" key="9999/999166631/999166633/1/100/101" value="1.00006 115.542"/>
+                                <text>
+                                    <text-style ref="ts10">at ipinapakilala si
+</text-style>
+                                    <text-style ref="ts11">celeste cortez</text-style>
+                                </text>
+                                <text-style-def id="ts10">
+                                    <text-style font="Rocca" fontSize="63" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts11">
+                                    <text-style font="Rocca" fontSize="120" fontFace="Regular" fontColor="0.997855 0.970583 0.959162 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <metadata>
+                                <md key="com.apple.proapps.studio.reel" value="16g 3"/>
+                            </metadata>
+                        </clip>
+                        <clip offset="853853/24000s" name="2013-10-30 11:45:44" duration="154154/24000s" start="5324122804/24000s" tcFormat="DF">
+                            <timeMap>
+                                <timept time="5322649332/24000s" value="55444263875000/1000000000s" interp="smooth2"/>
+                                <timept time="5325291972/24000s" value="55471791375000/1000000000s" interp="smooth2"/>
+                            </timeMap>
+                            <info-asc-cdl slope="1.19171 1.1937 1.2063" offset="-0.0651042 -0.0666553 -0.0741993" power="1 1 1"/>
+                            <adjust-color>
+                                <cb-correction>
+                                    <cb-values global="0.138242 0.504548 0.497843 0.465174" shadows="0.5 0.5 0.488748 0.5" midtones="0.597 0.5 0.594527 0.5" highlights="0.6439 0.506083 0.446343 0.599502"/>
+                                </cb-correction>
+                            </adjust-color>
+                            <adjust-volume amount="-96dB"/>
+                            <video offset="1330662333/24000s" ref="r5" duration="660660/24000s" start="1330662333/24000s">
+                                <adjust-stabilization type="automatic">
+                                    <param name="Smoothing" key="107" value="0.99"/>
+                                    <param name="Tripod Mode" key="108" value="1"/>
+                                </adjust-stabilization>
+                                <audio lane="-1" offset="2661324666/48000s" ref="r5" duration="1321320/48000s" start="2661324666/48000s" role="dialogue" srcCh="1, 2"/>
+                            </video>
+                            <metadata>
+                                <md key="com.apple.proapps.studio.reel" value="16g 3"/>
+                            </metadata>
+                        </clip>
+                    </spine>
+                </sequence>
+            </media>
+            <format id="r3" name="FFVideoFormat640x480p25" frameDuration="100/2500s" width="640" height="480"/>
+            <asset id="r4" name="hellowala_id" uid="76AFA20655F428711BE3117EF343BA62" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/hellowala_id.mov" start="0s" duration="39100/2500s" hasVideo="1" format="r3">
+                <bookmark>Ym9va3QDAAAAAAQQMAAAAJ7NxkvDQ7Hl8kPSE6ktPMEO0PcLgVi56toixsrqoi3DWAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEAAAAAEBAABoZWxsb3dhbGFfaWQubW92HAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAXAAAAGwAAACEAAAACAAAAAQDAACsmAAAAAAAAAgAAAAEAwAABgMGAAAAAAAIAAAABAMAAD8DBgAAAAAACAAAAAQDAACD+EkAAAAAAAgAAAAEAwAAifhJAAAAAAAIAAAABAMAAKz4SQAAAAAACAAAAAQDAADy+EkAAAAAABwAAAABBgAAwAAAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAAQbYWcmcAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAEAAAABAAAAAMDAAAFAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAgJZSSgAAAAgAAAAABAAAQbXAGjsAAAAkAAAAAQEAAEE4MjFEMDNDLTg1MDUtM0E5Ri04NDMxLTU3QzdCRTQxNUM5NBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMDAAAACAAo5AAAAP7///8BAAAAAAAAABIAAAAEEAAAnAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAZAEAAAAAAABAEAAAVAEAAAAAAABUEAAAjAEAAAAAAABVEAAAmAEAAAAAAABWEAAAhAEAAAAAAAACIAAAQAIAAAAAAAAQIAAAwAEAAAAAAAARIAAA9AEAAAAAAAASIAAA1AEAAAAAAAATIAAA5AEAAAAAAAAgIAAAIAIAAAAAAAAwIAAAhAEAAAAAAAABwAAApAEAAAAAAAARwAAAFAAAAAAAAAASwAAAtAEAAAAAAAAQ0AAATAIAAAAAAAA=</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                        <array>
+                            <string>Apple ProRes 4444</string>
+                        </array>
+                    </md>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-01-27 14:19:30 +0800"/>
+                </metadata>
+            </asset>
+            <asset id="r5" name="2013-10-30 11:45:44" uid="6650EFD0C91B558CF05C8C5B65CD8EA0" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/2013-10-30%2011_45_44%20(id).mov" start="1330662333/24000s" duration="660660/24000s" hasVideo="1" format="r1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+                <bookmark>Ym9va4ADAAAAAAQQMAAAAITEf8c+KzJ7QwXNyzbwQYBVsfP6C63TnqEAND4tj/OiZAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAHAAAAAEBAAAyMDEzLTEwLTMwIDExXzQ1XzQ0IChpZCkubW92HAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAXAAAAGwAAACEAAAACAAAAAQDAACsmAAAAAAAAAgAAAAEAwAABgMGAAAAAAAIAAAABAMAAD8DBgAAAAAACAAAAAQDAACD+EkAAAAAAAgAAAAEAwAAifhJAAAAAAAIAAAABAMAAKz4SQAAAAAACAAAAAQDAACr+EkAAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAAAgAAAAABAAAQbgguGgAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAEAAAABAAAAAMDAAAFAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAgJZSSgAAAAgAAAAABAAAQbXAGjsAAAAkAAAAAQEAAEE4MjFEMDNDLTg1MDUtM0E5Ri04NDMxLTU3QzdCRTQxNUM5NBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMDAAAACAAo5AAAAP7///8BAAAAAAAAABIAAAAEEAAAqAAAAAAAAAAFEAAAPAEAAAAAAAAQEAAAcAEAAAAAAABAEAAAYAEAAAAAAABUEAAAmAEAAAAAAABVEAAApAEAAAAAAABWEAAAkAEAAAAAAAACIAAATAIAAAAAAAAQIAAAzAEAAAAAAAARIAAAAAIAAAAAAAASIAAA4AEAAAAAAAATIAAA8AEAAAAAAAAgIAAALAIAAAAAAAAwIAAAkAEAAAAAAAABwAAAsAEAAAAAAAARwAAAFAAAAAAAAAASwAAAwAEAAAAAAAAQ0AAAWAIAAAAAAAA=</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.cameraName" value="16g 3"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                        <array>
+                            <string>H.264</string>
+                            <string>Linear PCM</string>
+                        </array>
+                    </md>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-01-27 14:18:20 +0800"/>
+                </metadata>
+            </asset>
+            <effect id="r6" name="Basic Title" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti"/>
+            <asset id="r7" name="JA Seq 1(1)" uid="8D050E842E581E587FD8F100611A5967" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/JA%20Seq%201(1).wav" start="0s" duration="14222250/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+                <bookmark>Ym9va3QDAAAAAAQQMAAAAMwV5+sglTCJWXJAqu+FpgyxYd8IpgLcLWq0Cd6EH4nTWAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAADwAAAAEBAABKQSBTZXEgMSgxKS53YXYAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAXAAAAGwAAACEAAAACAAAAAQDAACsmAAAAAAAAAgAAAAEAwAABgMGAAAAAAAIAAAABAMAAD8DBgAAAAAACAAAAAQDAACD+EkAAAAAAAgAAAAEAwAAifhJAAAAAAAIAAAABAMAAKz4SQAAAAAACAAAAAQDAACUEEoAAAAAABwAAAABBgAAwAAAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgAAAAABAAAQbiFYBUAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAEAAAABAAAAAMDAAAFAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAgJZSSgAAAAgAAAAABAAAQbXAGjsAAAAkAAAAAQEAAEE4MjFEMDNDLTg1MDUtM0E5Ri04NDMxLTU3QzdCRTQxNUM5NBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMDAAAACAAo5AAAAP7///8BAAAAAAAAABIAAAAEEAAAnAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAZAEAAAAAAABAEAAAVAEAAAAAAABUEAAAjAEAAAAAAABVEAAAmAEAAAAAAABWEAAAhAEAAAAAAAACIAAAQAIAAAAAAAAQIAAAwAEAAAAAAAARIAAA9AEAAAAAAAASIAAA1AEAAAAAAAATIAAA5AEAAAAAAAAgIAAAIAIAAAAAAAAwIAAAhAEAAAAAAAABwAAApAEAAAAAAAARwAAAFAAAAAAAAAASwAAAtAEAAAAAAAAQ0AAATAIAAAAAAAA=</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-01-27 16:21:10 +0800"/>
+                </metadata>
+            </asset>
+            <media id="r8" name="main Clip" uid="ZTiBCB8XTiOOrx45c+5NnQ">
+                <sequence duration="29063034/24000s" format="r1" tcStart="0s" audioLayout="stereo">
+                    <spine>
+                        <clip offset="0s" name="jose alberto vid 20min colorgraded" duration="29063034/24000s" tcFormat="NDF">
+                            <video offset="0s" ref="r9" duration="29063034/24000s"/>
+                            <clip lane="-5" offset="0s" name="sound_score" duration="58126068/48000s" format="r10">
+                                <adjust-volume>
+                                    <param name="amount" keyValues="0dB; -96dB; -96dB; -11dB; 5dB; 0dB" keyTimes="533446646/720000s; 533460461/720000s; 533624428/720000s; 533624443/720000s; 533725212/720000s; 534025344/720000s"/>
+                                </adjust-volume>
+                                <audio offset="0s" ref="r11" duration="58126068/48000s" role="music" srcCh="1, 2"/>
+                                <keyword start="0s" duration="58126068/48000s" value="20min"/>
+                                <filter-audio ref="r12" name="Compressor" presetID="[3]happy.pst">
+                                    <data key="effectState">BAtzdHJlYW10eXBlZIHoA4QBQISEhAxOU0RpY3Rpb25hcnkAhIQITlNPYmplY3QAhYQBaQaShISECE5TU3RyaW5nAZSEASsHdmVyc2lvboaShISECE5TTnVtYmVyAISEB05TVmFsdWUAlIQBKoSEAXGbAIaShJaXDG1hbnVmYWN0dXJlcoaShJiampuCR0FNRYaShJaXBGRhdGGGkoSEhA1OU011dGFibGVEYXRhAISEBk5TRGF0YQCUlYGAAIQGWzEyOGNdgAAAAAEAAAAaAAAAR0FNRVRTUFCaAAAAAAAAAAAAaMHNzAxAAADoQQCAokQAAAAAAACAPwAAAAAAAIA/AAAAAAAAAAAAAAAAmpmZvgAAgD8AAAAAAAAAAAAAAAAAAAAA5dCCQQAAoEAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAyEKGkoSWlwRuYW1lhpKElpcIVW50aXRsZWSGkoSWlwdzdWJ0eXBlhpKEmJqam4GaAIaShJaXBHR5cGWGkoSYmpqbgnhmdWGGhg==</data>
+                                    <param name="Ratio [:1]" key="2" value="2.2"/>
+                                    <param name="Limiter Threshold [dB]" key="12" value="-0.3"/>
+                                    <param name="Limiter" key="13" value="1"/>
+                                </filter-audio>
+                            </clip>
+                            <clip lane="-4" offset="0s" name="sound_hindipaakotulog" duration="29055026/24000s">
+                                <adjust-EQ mode="voice_enhance"/>
+                                <audio offset="0s" ref="r13" duration="58126068/48000s" role="hindi pa ako tulog" srcCh="1, 2"/>
+                                <keyword start="0s" duration="58126068/48000s" value="20min"/>
+                                <filter-audio ref="r14" name="Limiter"/>
+                            </clip>
+                            <clip lane="-3" offset="0s" name="sound_effects" duration="29017989/24000s">
+                                <audio offset="0s" ref="r15" duration="58037979/48000s" role="effects" srcCh="1, 2"/>
+                                <keyword start="0s" duration="58037979/48000s" value="20min"/>
+                            </clip>
+                            <clip lane="-2" offset="0s" name="sound_dialogue" duration="58037980/48000s" format="r10">
+                                <adjust-EQ mode="voice_enhance"/>
+                                <audio offset="0s" ref="r16" duration="58037980/48000s" role="dialogue" srcCh="1, 2"/>
+                                <keyword start="0s" duration="58037980/48000s" value="20min"/>
+                                <filter-audio ref="r14" name="Limiter"/>
+                            </clip>
+                            <clip lane="-1" offset="0s" name="sound cafe" duration="13934406/48000s" start="884045/48000s">
+                                <adjust-volume>
+                                    <param name="amount" keyValues="0dB; 0dB; -19dB" keyTimes="176809/9600s; 29592054037/600000000s; 643661111/12000000s"/>
+                                </adjust-volume>
+                                <audio offset="0s" ref="r17" duration="14712838/44100s" role="effects" srcCh="1, 2"/>
+                                <filter-audio ref="r18" name="Small Room" presetID="1"/>
+                            </clip>
+                            <keyword start="0s" duration="29018990/24000s" value="20min"/>
+                            <keyword start="0s" duration="29063034/24000s" value="20min"/>
+                            <keyword start="0s" duration="29018990/24000s" value="20min"/>
+                        </clip>
+                    </spine>
+                </sequence>
+            </media>
+            <asset id="r9" name="jose alberto vid 20min colorgraded" uid="8AF1A6D91EA720AFA0BD43DE1F9A2688" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/jose%20alberto%20vid%2020min%20colorgraded.mov" start="0s" duration="29063034/24000s" hasVideo="1" format="r1">
+                <bookmark>Ym9va4wDAAAAAAQQMAAAAGqiZxzSrcAXwZiYGPYdq72oBEQq2JWy4lfTKd8ogCOIcAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAJgAAAAEBAABqb3NlIGFsYmVydG8gdmlkIDIwbWluIGNvbG9yZ3JhZGVkLm1vdgAAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAXAAAAGwAAACEAAAACAAAAAQDAACsmAAAAAAAAAgAAAAEAwAABgMGAAAAAAAIAAAABAMAAD8DBgAAAAAACAAAAAQDAACD+EkAAAAAAAgAAAAEAwAAifhJAAAAAAAIAAAABAMAAKz4SQAAAAAACAAAAAQDAAAzvE8AAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQbi4bPkAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAEAAAABAAAAAMDAAAFAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAgJZSSgAAAAgAAAAABAAAQbXAGjsAAAAkAAAAAQEAAEE4MjFEMDNDLTg1MDUtM0E5Ri04NDMxLTU3QzdCRTQxNUM5NBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMDAAAACAAo5AAAAP7///8BAAAAAAAAABIAAAAEEAAAtAAAAAAAAAAFEAAASAEAAAAAAAAQEAAAfAEAAAAAAABAEAAAbAEAAAAAAABUEAAApAEAAAAAAABVEAAAsAEAAAAAAABWEAAAnAEAAAAAAAACIAAAWAIAAAAAAAAQIAAA2AEAAAAAAAARIAAADAIAAAAAAAASIAAA7AEAAAAAAAATIAAA/AEAAAAAAAAgIAAAOAIAAAAAAAAwIAAAnAEAAAAAAAABwAAAvAEAAAAAAAARwAAAFAAAAAAAAAASwAAAzAEAAAAAAAAQ0AAAZAIAAAAAAAA=</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                        <array>
+                            <string>Apple ProRes 422 (Proxy)</string>
+                        </array>
+                    </md>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-22 18:28:02 +0800"/>
+                </metadata>
+            </asset>
+            <format id="r10" name="FFVideoFormatRateUndefined"/>
+            <asset id="r11" name="sound_score" uid="FACD932596BE94AFCE803887AFD6CBA6" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/sound_score%20(fcp2).aiff" start="0s" duration="58126068/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+                <bookmark>Ym9va3wDAAAAAAQQMAAAABRoQzbYtYaDIL9EoVdJBQdv76NOmXnBmdRLWWrYEcc/YAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAFwAAAAEBAABzb3VuZF9zY29yZSAoZmNwMikuYWlmZgAcAAAAAQYAAAQAAAAUAAAAJAAAADQAAABcAAAAbAAAAIQAAAAIAAAABAMAAKyYAAAAAAAACAAAAAQDAAAGAwYAAAAAAAgAAAAEAwAAPwMGAAAAAAAIAAAABAMAAIP4SQAAAAAACAAAAAQDAACJ+EkAAAAAAAgAAAAEAwAArPhJAAAAAAAIAAAABAMAAK5oTgAAAAAAHAAAAAEGAADIAAAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAACAAAAAAEAABBuLJHBwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAQAAAAEAAAAAwMAAAUAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAADAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAACAllJKAAAACAAAAAAEAABBtcAaOwAAACQAAAABAQAAQTgyMUQwM0MtODUwNS0zQTlGLTg0MzEtNTdDN0JFNDE1Qzk0GAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMAAAAIACjkAAAA/v///wEAAAAAAAAAEgAAAAQQAACkAAAAAAAAAAUQAAA4AQAAAAAAABAQAABsAQAAAAAAAEAQAABcAQAAAAAAAFQQAACUAQAAAAAAAFUQAACgAQAAAAAAAFYQAACMAQAAAAAAAAIgAABIAgAAAAAAABAgAADIAQAAAAAAABEgAAD8AQAAAAAAABIgAADcAQAAAAAAABMgAADsAQAAAAAAACAgAAAoAgAAAAAAADAgAACMAQAAAAAAAAHAAACsAQAAAAAAABHAAAAUAAAAAAAAABLAAAC8AQAAAAAAABDQAABUAgAAAAAAAA==</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-17 21:37:01 +0800"/>
+                </metadata>
+            </asset>
+            <effect id="r12" name="Compressor" uid="AudioUnit: 0x617566780000009a454d4147"/>
+            <asset id="r13" name="sound_hindipaakotulog" uid="1AC2B7203BCEAFAFCAA765828F794BD3" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/sound_hindipaakotulog%20(fcp1).aiff" start="0s" duration="58126068/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+                <bookmark>Ym9va4gDAAAAAAQQMAAAADUTc3DUT+6IvdKHm5oXbIVOsCMxoOcaEcogq8/EfdCvbAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAIQAAAAEBAABzb3VuZF9oaW5kaXBhYWtvdHVsb2cgKGZjcDEpLmFpZmYAAAAcAAAAAQYAAAQAAAAUAAAAJAAAADQAAABcAAAAbAAAAIQAAAAIAAAABAMAAKyYAAAAAAAACAAAAAQDAAAGAwYAAAAAAAgAAAAEAwAAPwMGAAAAAAAIAAAABAMAAIP4SQAAAAAACAAAAAQDAACJ+EkAAAAAAAgAAAAEAwAArPhJAAAAAAAIAAAABAMAAA8dTwAAAAAAHAAAAAEGAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAA0AQAACAAAAAAEAABBuLeDiAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAQAAAAEAAAAAwMAAAUAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAADAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAACAllJKAAAACAAAAAAEAABBtcAaOwAAACQAAAABAQAAQTgyMUQwM0MtODUwNS0zQTlGLTg0MzEtNTdDN0JFNDE1Qzk0GAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMAAAAIACjkAAAA/v///wEAAAAAAAAAEgAAAAQQAACwAAAAAAAAAAUQAABEAQAAAAAAABAQAAB4AQAAAAAAAEAQAABoAQAAAAAAAFQQAACgAQAAAAAAAFUQAACsAQAAAAAAAFYQAACYAQAAAAAAAAIgAABUAgAAAAAAABAgAADUAQAAAAAAABEgAAAIAgAAAAAAABIgAADoAQAAAAAAABMgAAD4AQAAAAAAACAgAAA0AgAAAAAAADAgAACYAQAAAAAAAAHAAAC4AQAAAAAAABHAAAAUAAAAAAAAABLAAADIAQAAAAAAABDQAABgAgAAAAAAAA==</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-21 21:00:36 +0800"/>
+                </metadata>
+            </asset>
+            <effect id="r14" name="Limiter" uid="Limiter.Levels.audio.effectBundle"/>
+            <asset id="r15" name="sound_effects" uid="F0C933B7ED0170A5BC875B47D986C611" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/sound_effects%20(fcp1).aiff" start="0s" duration="58037979/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+                <bookmark>Ym9va4ADAAAAAAQQMAAAAFB39fXNQ0w/R+Rm048x1d1rzuybeCgthF2C15YPIg6nZAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAGQAAAAEBAABzb3VuZF9lZmZlY3RzIChmY3AxKS5haWZmAAAAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAXAAAAGwAAACEAAAACAAAAAQDAACsmAAAAAAAAAgAAAAEAwAABgMGAAAAAAAIAAAABAMAAD8DBgAAAAAACAAAAAQDAACD+EkAAAAAAAgAAAAEAwAAifhJAAAAAAAIAAAABAMAAKz4SQAAAAAACAAAAAQDAADvvUwAAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAAAgAAAAABAAAQbipFJMAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAEAAAABAAAAAMDAAAFAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAgJZSSgAAAAgAAAAABAAAQbXAGjsAAAAkAAAAAQEAAEE4MjFEMDNDLTg1MDUtM0E5Ri04NDMxLTU3QzdCRTQxNUM5NBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMDAAAACAAo5AAAAP7///8BAAAAAAAAABIAAAAEEAAAqAAAAAAAAAAFEAAAPAEAAAAAAAAQEAAAcAEAAAAAAABAEAAAYAEAAAAAAABUEAAAmAEAAAAAAABVEAAApAEAAAAAAABWEAAAkAEAAAAAAAACIAAATAIAAAAAAAAQIAAAzAEAAAAAAAARIAAAAAIAAAAAAAASIAAA4AEAAAAAAAATIAAA8AEAAAAAAAAgIAAALAIAAAAAAAAwIAAAkAEAAAAAAAABwAAAsAEAAAAAAAARwAAAFAAAAAAAAAASwAAAwAEAAAAAAAAQ0AAAWAIAAAAAAAA=</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-10 22:09:08 +0800"/>
+                </metadata>
+            </asset>
+            <asset id="r16" name="sound_dialogue" uid="2F789A0D6DB4E0514AA1804CDA2A06B5" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/sound_dialogue%20(fcp1).aiff" start="0s" duration="58037980/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+                <bookmark>Ym9va4ADAAAAAAQQMAAAAHlKbiV7KJ2JrzN9CkjnAFeJH8se7kYgcCXpb+zZw+7QZAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAGgAAAAEBAABzb3VuZF9kaWFsb2d1ZSAoZmNwMSkuYWlmZgAAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAXAAAAGwAAACEAAAACAAAAAQDAACsmAAAAAAAAAgAAAAEAwAABgMGAAAAAAAIAAAABAMAAD8DBgAAAAAACAAAAAQDAACD+EkAAAAAAAgAAAAEAwAAifhJAAAAAAAIAAAABAMAAKz4SQAAAAAACAAAAAQDAAAvOUwAAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAAAgAAAAABAAAQbijx1UAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAEAAAABAAAAAMDAAAFAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAgJZSSgAAAAgAAAAABAAAQbXAGjsAAAAkAAAAAQEAAEE4MjFEMDNDLTg1MDUtM0E5Ri04NDMxLTU3QzdCRTQxNUM5NBgAAAABAgAAgQAAAAEACADvFwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMDAAAACAAo5AAAAP7///8BAAAAAAAAABIAAAAEEAAAqAAAAAAAAAAFEAAAPAEAAAAAAAAQEAAAcAEAAAAAAABAEAAAYAEAAAAAAABUEAAAmAEAAAAAAABVEAAApAEAAAAAAABWEAAAkAEAAAAAAAACIAAATAIAAAAAAAAQIAAAzAEAAAAAAAARIAAAAAIAAAAAAAASIAAA4AEAAAAAAAATIAAA8AEAAAAAAAAgIAAALAIAAAAAAAAwIAAAkAEAAAAAAAABwAAAsAEAAAAAAAARwAAAFAAAAAAAAAASwAAAwAEAAAAAAAAQ0AAAWAIAAAAAAAA=</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-06 22:00:48 +0800"/>
+                </metadata>
+            </asset>
+            <asset id="r17" name="sound cafe" uid="1A16548A877C7379B971F57B368C5629" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/sound%20cafe%20(fcp1).aiff" start="0s" duration="14712838/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+                <bookmark>Ym9va3wDAAAAAAQQMAAAAIUl9WCnWMiaYskcEEZgLljdfDswZzCnu+Cia75b+1tRYAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAFgAAAAEBAABzb3VuZCBjYWZlIChmY3AxKS5haWZmAAAcAAAAAQYAAAQAAAAUAAAAJAAAADQAAABcAAAAbAAAAIQAAAAIAAAABAMAAKyYAAAAAAAACAAAAAQDAAAGAwYAAAAAAAgAAAAEAwAAPwMGAAAAAAAIAAAABAMAAIP4SQAAAAAACAAAAAQDAACJ+EkAAAAAAAgAAAAEAwAArPhJAAAAAAAIAAAABAMAAFw/SgAAAAAAHAAAAAEGAADIAAAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAACAAAAAAEAABBuJf+cQAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAQAAAAEAAAAAwMAAAUAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAADAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAACAllJKAAAACAAAAAAEAABBtcAaOwAAACQAAAABAQAAQTgyMUQwM0MtODUwNS0zQTlGLTg0MzEtNTdDN0JFNDE1Qzk0GAAAAAECAACBAAAAAQAIAO8XAAABAAgAAAAAAAAAAAABAAAAAQEAAC8AAAAEAAAAAwMAAAAIACjkAAAA/v///wEAAAAAAAAAEgAAAAQQAACkAAAAAAAAAAUQAAA4AQAAAAAAABAQAABsAQAAAAAAAEAQAABcAQAAAAAAAFQQAACUAQAAAAAAAFUQAACgAQAAAAAAAFYQAACMAQAAAAAAAAIgAABIAgAAAAAAABAgAADIAQAAAAAAABEgAAD8AQAAAAAAABIgAADcAQAAAAAAABMgAADsAQAAAAAAACAgAAAoAgAAAAAAADAgAACMAQAAAAAAAAHAAACsAQAAAAAAABHAAAAUAAAAAAAAABLAAAC8AQAAAAAAABDQAABUAgAAAAAAAA==</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-01-29 00:35:57 +0800"/>
+                </metadata>
+            </asset>
+            <effect id="r18" name="Small Room" uid="Small Room.Spaces.audio.effectBundle"/>
+            <effect id="r19" name="TextUp Regular" uid="/Library/Application Support/Final Cut Pro/Templates.localized/Titles.localized/Spherico/Standard Subtitles/TextUp/TextUp Regular/TextUp Regular.moti"/>
+            <asset id="r20" name="credit slide0" uid="DDA5FCB5610AA14AF475053ECB82D0AE" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide0.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAALXef7Mjg50kUzMNI3Nv+Bch+Xl0FQPsr9LQzjS1bb3/XAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGUwLnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA8UFLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOmcAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:38:19 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <format id="r21" name="FFVideoFormatRateUndefined" width="1920" height="1080"/>
+            <asset id="r22" name="credit slide1" uid="FC1405EF6B413AF6CB0881BC7A1B1512" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide1.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAABH9C/D63LmXMWmGxa3PfQFfZtkVHpFSoro4IMPrBTRmXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGUxLnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA90FLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nObXAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:38:19 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r23" name="credit slide2" uid="7B42EB9F18FFE80F9D408291F27B0473" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide2.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAEeHSO6YM3HSQ8ZmUWhOrNhwK/3wuY7wL02sgEbjthVKXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGUyLnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAAFkFLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOc/AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:31:12 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r24" name="credit slide3" uid="8913F2131F51EA4CA9703A7368EB67AD" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide3.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAABM8Ow3tcX1FN0sAtzDKN0zhbm6WgL4uOFemru+c0ggcXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGUzLnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAAF0FLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOdlAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:31:12 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r25" name="credit slide5" uid="4FD08C6869D52239A0DAABD5E22E145B" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide5.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAACut6WXGLWpTEh1wjM3k4OM/k2RiI1ttzh1X01WLEHW0XAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGU1LnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAAGUFLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOeAAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:31:12 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r26" name="credit slide6" uid="F451D970CDC0955F93D77EA812910FEC" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide6.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAADi55IsUwG3xHIXcbFI7NdnoEn9aTb/1X8jVrddYrzQIXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGU2LnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAAGkFLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOeNAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:31:12 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r27" name="credit slide7" uid="C319ACD388FA2F2962FE405491DB9945" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide7.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAPw/2jTNYA3GLntqHUmIU+jrRfStYljbxZdsnMrndp23XAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGU3LnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAAG0FLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOeYAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:31:12 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r28" name="credit slide8" uid="513769669BF98F9E2B6F155CA5A06F46" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide8.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAL4EO6i+jBFzECNuGtbdHs2OSa8GDaQ0ng8WtCloDkDbXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGU4LnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAAH0FLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOegAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:31:12 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r29" name="credit slide9" uid="8D727A38EA231571B77D3EA1F6F17BCF" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide9.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAJeXija30D9IDj6rTqVVCVuJpifTCmMs/wg94L63+10DXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEQAAAAEBAABjcmVkaXQgc2xpZGU5LnRpZgAAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAAPEFLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOeqAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:31:12 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r30" name="credit slide10" uid="F52BD6C935B73404452ECC53A058EF23" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide10.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAADysn5CQ0sQmOJE+ESrkIn3wcon7vuvndB5Y2/PXE/qHXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEgAAAAEBAABjcmVkaXQgc2xpZGUxMC50aWYAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAAPUFLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nOe0AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:31:12 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r31" name="credit slide11" uid="92BF6AB7858DF36E60DC54B93172A52D" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide11.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAFReAFFRoM7FDncdc2LeloaQmY6ExrRk2OzNrIKHkTpVXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEgAAAAEBAABjcmVkaXQgc2xpZGUxMS50aWYAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA60ZLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nO1SAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:56:01 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r32" name="credit slide12" uid="82DCDEC5E4776BFC2C470983331DA29A" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide12.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAMJY9Ff9AnzSUkn2fzDv0kVYnGHiR4YLDrbRXY6VAH/iXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEgAAAAEBAABjcmVkaXQgc2xpZGUxMi50aWYAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA8EZLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nO1bAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:56:01 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r33" name="credit slide13" uid="0BFAE29AD7CD9E510823FA0C6601018C" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide13.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAJP1mUrMVx75/ypAYrFl6jzlh5mM3HAcL7OJZJyoJM8nXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEgAAAAEBAABjcmVkaXQgc2xpZGUxMy50aWYAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA8UZLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nO1nAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:56:01 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r34" name="credit slide14" uid="300B75FB4C855FCEB9340DCE486B9418" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide14.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAFkPPGcOw4pgC9O2ZXVrSFs70rTWOkykrf7ZFAZu6vxWXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEgAAAAEBAABjcmVkaXQgc2xpZGUxNC50aWYAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA9kZLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nO1vAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:56:01 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r35" name="credit slide16" uid="16E9C3D22E52B4D4C32999A21A58EFDA" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide16.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAPx8SItfWLc/QfACzBVbTbo/3PU2YV9wGJP/ZXa+hJtbXAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEgAAAAEBAABjcmVkaXQgc2xpZGUxNi50aWYAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA90ZLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nO14AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:56:01 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r36" name="credit slide17" uid="26AD7B66736ABDB13C362A639E97D294" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide17.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAC5oYjiCG2MzLNwaswAJTI6HLucsUPFiSy/nY6+wl+V8XAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEgAAAAEBAABjcmVkaXQgc2xpZGUxNy50aWYAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA+EZLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nO2DAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:56:01 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+            <asset id="r37" name="credit slide18" uid="DFB526A834AB0F5FAA8AE0D1490C6892" src="file:///Users/krist/Movies/jose%20alberto%20fcp10.1.1.fcpbundle/master/Original%20Media/credit%20slide18.tif" start="0s" duration="0s" hasVideo="1" format="r21">
+                <bookmark>Ym9va3gDAAAAAAQQMAAAAPe825M/ZnUfcsDBDs+1iT+j5yS1ElXNOqTPIAPJMXL3XAIAAAUAAAABAQAAVXNlcnMAAAAFAAAAAQEAAGtyaXN0AAAABgAAAAEBAABNb3ZpZXMAACAAAAABAQAAam9zZSBhbGJlcnRvIGZjcDEwLjEuMS5mY3BidW5kbGUGAAAAAQEAAG1hc3RlcgAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAEgAAAAEBAABjcmVkaXQgc2xpZGUxOC50aWYAABwAAAABBgAABAAAABQAAAAkAAAANAAAAFwAAABsAAAAhAAAAAgAAAAEAwAArJgAAAAAAAAIAAAABAMAAAYDBgAAAAAACAAAAAQDAAA/AwYAAAAAAAgAAAAEAwAAg/hJAAAAAAAIAAAABAMAAIn4SQAAAAAACAAAAAQDAACs+EkAAAAAAAgAAAAEAwAA+UZLAAAAAAAcAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAACQBAAAIAAAAAAQAAEG4nO2MAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAICWUkoAAAAIAAAAAAQAAEG1wBo7AAAAJAAAAAEBAABBODIxRDAzQy04NTA1LTNBOUYtODQzMS01N0M3QkU0MTVDOTQYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAQAAAADAwAAAAgAKOQAAAD+////AQAAAAAAAAASAAAABBAAAKAAAAAAAAAABRAAADQBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAAiAAAEQCAAAAAAAAECAAAMQBAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAMCAAAIgBAAAAAAAAAcAAAKgBAAAAAAAAEcAAABQAAAAAAAAAEsAAALgBAAAAAAAAENAAAFACAAAAAAAA</bookmark>
+                <metadata>
+                    <md key="com.apple.proapps.mio.ingestDate" value="2014-02-01 16:56:01 +0800"/>
+                    <md key="com.apple.proapps.spotlight.kMDItemOrientation" value="0"/>
+                </metadata>
+            </asset>
+        </resources>
+        <sequence duration="29310281/24000s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+            <spine>
+                <ref-clip offset="0s" ref="r2" name="opening credits" duration="1008007/24000s">
+                    <clip lane="-1" offset="273581/18000s" name="JA Seq 1(1)" duration="1389866/48000s">
+                        <adjust-volume>
+                            <param name="amount">
+                                <fadeOut type="easeIn" duration="1322184/720000s"/>
+                            </param>
+                        </adjust-volume>
+                        <audio offset="0s" ref="r7" duration="14222250/44100s" role="dialogue" srcCh="1, 2"/>
+                    </clip>
+                </ref-clip>
+                <ref-clip offset="1008007/24000s" ref="r8" name="main Clip" duration="28302274/24000s">
+                    <adjust-volume>
+                        <param name="amount">
+                            <fadeOut type="easeOut" duration="4121354/720000s"/>
+                        </param>
+                    </adjust-volume>
+                    <title lane="1" offset="914914/24000s" ref="r19" name="TextUp Regular: What is it?" duration="285285/120000s" start="86486400/24000s">
+                        <param name="Position" key="9999/16130/16136/1/100/101" value="0 -382"/>
+                        <param name="Anchor Point" key="9999/16130/16136/1/100/107" value="768 50"/>
+                        <text>
+                            <text-style ref="ts12">What is it?</text-style>
+                        </text>
+                        <text-style-def id="ts12">
+                            <text-style font="Helvetica" fontSize="48" fontFace="Regular" fontColor="0.921502 0.921474 0.92149 1" strokeColor="0.0537348 0.0537332 0.0537341 1" strokeWidth="4" alignment="center" lineSpacing="10"/>
+                        </text-style-def>
+                    </title>
+                    <title lane="1" offset="992992/24000s" ref="r19" name="TextUp Regular: It's nothing... Look they got a nice lampshade here!
+Wow" duration="285285/120000s" start="86486400/24000s">
+                        <param name="Position" key="9999/16130/16136/1/100/101" value="0 -382"/>
+                        <param name="Anchor Point" key="9999/16130/16136/1/100/107" value="768 50"/>
+                        <text>
+                            <text-style ref="ts13">It's nothing... Look they got a nice lampshade here!
+Wow</text-style>
+                        </text>
+                        <text-style-def id="ts13">
+                            <text-style font="Helvetica" fontSize="48" fontFace="Regular" fontColor="0.921502 0.921474 0.92149 1" strokeColor="0.0537348 0.0537332 0.0537341 1" strokeWidth="4" alignment="center" lineSpacing="10"/>
+                        </text-style-def>
+                    </title>
+                    <spine lane="1" offset="2135133/2000s">
+                        <video offset="0s" ref="r20" name="credit slide0" duration="196196/24000s" start="86399313/24000s"/>
+                        <video offset="196196/24000s" ref="r22" name="credit slide1" duration="144144/24000s" start="86448362/24000s"/>
+                        <video offset="340340/24000s" ref="r23" name="credit slide2" duration="145145/24000s" start="86457371/24000s"/>
+                        <video offset="485485/24000s" ref="r24" name="credit slide3" duration="145145/24000s" start="86450364/24000s"/>
+                        <video offset="630630/24000s" ref="r25" name="credit slide5" duration="145145/24000s" start="86448362/24000s"/>
+                        <video offset="775775/24000s" ref="r26" name="credit slide6" duration="145145/24000s" start="86468382/24000s"/>
+                        <video offset="920920/24000s" ref="r27" name="credit slide7" duration="145145/24000s" start="86465379/24000s"/>
+                        <video offset="1066065/24000s" ref="r28" name="credit slide8" duration="144144/24000s" start="86470384/24000s"/>
+                        <video offset="1210209/24000s" ref="r29" name="credit slide9" duration="145145/24000s" start="86452366/24000s"/>
+                        <video offset="1355354/24000s" ref="r30" name="credit slide10" duration="144144/24000s" start="86484398/24000s"/>
+                        <video offset="1499498/24000s" ref="r31" name="credit slide11" duration="169169/24000s" start="86406320/24000s"/>
+                        <video offset="1668667/24000s" ref="r32" name="credit slide12" duration="169169/24000s" start="86432346/24000s"/>
+                        <video offset="1837836/24000s" ref="r33" name="credit slide13" duration="169169/24000s" start="86405319/24000s"/>
+                        <video offset="2007005/24000s" ref="r34" name="credit slide14" duration="168168/24000s" start="86411325/24000s"/>
+                        <video offset="2175173/24000s" ref="r35" name="credit slide16" duration="169169/24000s" start="86451365/24000s"/>
+                        <video offset="2344342/24000s" ref="r36" name="credit slide17" duration="168168/24000s" start="86445359/24000s"/>
+                        <video offset="2512510/24000s" ref="r37" name="credit slide18" duration="163163/24000s" start="86442356/24000s"/>
+                    </spine>
+                </ref-clip>
+            </spine>
+        </sequence>
+    </project>
+</fcpxml>
