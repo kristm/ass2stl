@@ -44,8 +44,7 @@
     [ass-time]
     (when-let [timematch (first (re-seq #"^(\d+)\:(\d+)\:(\d+)\.(\d+)$" ass-time))]
         (let [hour (nth timematch 1) minute (nth timematch 2) sec (nth timematch 3) endf (nth timematch 4)]
-            ;(println (apply str [hour "|" minute "|" sec "|" endf])))))
-            (Math/round (* (Float. (apply str [ (+ (* (Integer. minute) 60) (Integer. sec)) "." endf ])) 24000)))))
+            (- (Math/round (* (Float. (apply str [ (+ (* (Integer. minute) 60) (Integer. sec)) "." endf ])) 24000)) 1009646))))
 
 (defn convert-to-fcpxml-time
     [ass-time]
@@ -85,7 +84,7 @@
 (defn convert-fcpxml
     [line]
     (let [start-time (convert-to-seconds (nth line 1)) end-time (convert-to-seconds (nth line 2))]
-        (str "<title lane=\"1\" offset=\"" (convert-to-fcpxml-time (nth line 1)) "\" ref=\"r11\" name=\"TextUp Bold: " (strip-format line) "\" duration=\"" (fcpxml-duration start-time end-time) "\" start=\"86486400/24000s\" role=\"subtitle\">\n\t<text>" (strip-format line) "</text>\n</title>"))
+        (str "<title lane=\"1\" offset=\"" (convert-to-fcpxml-time (nth line 1)) "\" ref=\"r11\" name=\"TextUp Regular: " (strip-format line) "\" duration=\"" (fcpxml-duration start-time end-time) "\" start=\"86486400/24000s\" role=\"subtitle\">\n\t<param name=\"Position\" key=\"9999/16130/16136/1/100/101\" value=\"0 -382\"/>\n\t<param name=\"Anchor Point\" key=\"9999/16130/16136/1/100/107\" value=\"768 50\"/>\n\t<text>\n\t\t<text-style ref=\"ts12\">" (strip-format line) "</text-style>\n\t</text>\n</title>"))
 )
 
 (defn -main
