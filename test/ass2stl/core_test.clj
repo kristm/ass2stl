@@ -15,6 +15,9 @@
 (def formatted-line
     "Dialogue: 0,0:00:28.00,0:00:36.89,Default,,0,0,0,,{\\i1}It isn't real if it isn't true")
 
+(def spanish-line
+    "Dialogue: 0,0:06:39.00,0:06:42.37,Default,,0,0,0,,¿Qué estás haciendo ahora?")
+
 ;(def line-with-quote
 ;    "Dialogue: 0,0:06:07.82,0:06:09.40,Default,,0,0,0,,As if everything is "OK""
 ;)
@@ -73,6 +76,10 @@
 (deftest test-convert-fcpxml
     (testing "convert aegisub format to fcpx xml"
         (is (= "<title lane=\"1\" offset=\"-337646/24000s\" ref=\"r11\" name=\"TextUp Regular: It isn't real if it isn't true\" duration=\"1066800/120000s\" start=\"86486400/24000s\" role=\"subtitle\">\n\t<param name=\"Position\" key=\"9999/16130/16136/1/100/101\" value=\"0 -382\"/>\n\t<param name=\"Anchor Point\" key=\"9999/16130/16136/1/100/107\" value=\"768 50\"/>\n\t<text>\n\t\t<text-style ref=\"ts12\">It isn't real if it isn't true</text-style>\n\t</text>\n</title>" (convert-fcpxml (parse-line formatted-line)))))
+    (testing "sample"
+      (println spanish-line)
+      (println (apply str [">> " (parse-line spanish-line)]))
+    )
 )
 
 
