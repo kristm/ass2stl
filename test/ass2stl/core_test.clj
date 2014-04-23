@@ -72,7 +72,9 @@
 
 (deftest test-convert-fcpxml
     (testing "convert aegisub format to fcpx xml"
-        (is (= "<title lane=\"1\" offset=\"672000/24000s\" ref=\"r11\" name=\"TextUp Bold: It isn't real if it isn't true\" duration=\"1066800/120000s\" start=\"86486400/24000s\" role=\"subtitle'>\n\t<text>It isn't real if it isn't true</text>\n</title>" (convert-fcpxml (parse-line formatted-line))))))
+        (is (= "<title lane=\"1\" offset=\"-337646/24000s\" ref=\"r11\" name=\"TextUp Regular: It isn't real if it isn't true\" duration=\"1066800/120000s\" start=\"86486400/24000s\" role=\"subtitle\">\n\t<param name=\"Position\" key=\"9999/16130/16136/1/100/101\" value=\"0 -382\"/>\n\t<param name=\"Anchor Point\" key=\"9999/16130/16136/1/100/107\" value=\"768 50\"/>\n\t<text>\n\t\t<text-style ref=\"ts12\">It isn't real if it isn't true</text-style>\n\t</text>\n</title>" (convert-fcpxml (parse-line formatted-line)))))
+)
+
 
 (deftest test-convert-line
     (testing "convert ass line to stl format"
