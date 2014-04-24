@@ -15,6 +15,9 @@
 (def formatted-line
     "Dialogue: 0,0:00:28.00,0:00:36.89,Default,,0,0,0,,{\\i1}It isn't real if it isn't true")
 
+(def formatted-line-2
+    "Si, una \"{\\i1}cita{\\i0}.\"")
+
 (def spanish-line
     "Dialogue: 0,0:06:39.00,0:06:42.37,Default,,0,0,0,,¿Qué estás haciendo ahora?")
 
@@ -80,6 +83,12 @@
       (println spanish-line)
       (println (apply str [">> " (parse-line spanish-line)]))
     )
+)
+
+(deftest test-strip-format
+  (testing "remove formatting characters from string"
+    (is (= "Si, una \"cita.\"", (strip-format formatted-line-2)))
+  )
 )
 
 

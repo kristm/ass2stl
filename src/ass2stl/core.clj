@@ -24,7 +24,7 @@
 (def stl-format {
     :i1 "^I"})
 
-(def re #"((?:\d\d?:){2}\d{2}\.\d{2}),((?:\d\d?:){2}\d{2}\.\d{2}),Default[\d\,]+(?:\{\\?([a-z\d\\]*(?:\([0-9\,\-]*\))?)?\})?(\p{L}+)$")
+(def re #"((?:\d\d?:){2}\d{2}\.\d{2}),((?:\d\d?:){2}\d{2}\.\d{2}),Default[\d\,]+(?:\{\\?([a-z\d\\]*(?:\([0-9\,\-]*\))?)?\})?(.*)$")
 
 (defn print-header
     []
@@ -77,14 +77,16 @@
     (apply str [(convert-ass-timecode (nth line 1)) " , " (convert-ass-timecode (nth line 2)) " , " (convert-dialogue line)]))
 
 (defn strip-format
-    ([line] (clojure.string/replace (last line) #"\"" "\""))
+    [line] 
+      (clojure.string/replace 
+        (clojure.string/replace line #"\{[^\}]*}" "") #"\"" "\"")
 )
 
 
 (defn convert-fcpxml
     [line]
     (let [start-time (convert-to-seconds (nth line 1)) end-time (convert-to-seconds (nth line 2))]
-        (str "<title lane=\"1\" offset=\"" (convert-to-fcpxml-time (nth line 1)) "\" ref=\"r11\" name=\"TextUp Regular: " (strip-format line) "\" duration=\"" (fcpxml-duration start-time end-time) "\" start=\"86486400/24000s\" role=\"subtitle\">\n\t<param name=\"Position\" key=\"9999/16130/16136/1/100/101\" value=\"0 -382\"/>\n\t<param name=\"Anchor Point\" key=\"9999/16130/16136/1/100/107\" value=\"768 50\"/>\n\t<text>\n\t\t<text-style ref=\"ts12\">" (strip-format line) "</text-style>\n\t</text>\n</title>"))
+        (str "<title lane=\"1\" offset=\"" (convert-to-fcpxml-time (nth line 1)) "\" ref=\"r11\" name=\"TextUp Regular: " (strip-format (last line)) "\" duration=\"" (fcpxml-duration start-time end-time) "\" start=\"86486400/24000s\" role=\"subtitle\">\n\t<param name=\"Position\" key=\"9999/16130/16136/1/100/101\" value=\"0 -382\"/>\n\t<param name=\"Anchor Point\" key=\"9999/16130/16136/1/100/107\" value=\"768 50\"/>\n\t<text>\n\t\t<text-style ref=\"ts12\">" (strip-format (last line)) "</text-style>\n\t</text>\n</title>"))
 )
 
 (defn -main
@@ -97,6 +99,7 @@
                 (doseq [line fseq]
                     (binding [*out* (java.io.FileWriter. output, true)]
                         (when-let [matched-line (parse-line line)] 
-                            (println (convert-fcpxml matched-line)))))))
+                            (println (convert-fcpxml matched-line))))
+                )))
         (println (apply str ["FCPXML file written: " output]))
         (catch Exception e "System Screamed Error!")))
